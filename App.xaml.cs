@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Views.SistemaUisrael();
+            MainPage = new NavigationPage(new Views.Login());
         }
     }
 }
